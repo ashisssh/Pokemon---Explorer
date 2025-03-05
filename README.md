@@ -18,24 +18,34 @@ Ensure the following installed
 Installation
 
 1.	Clone the repository (if applicable):
-2.	git clone https://github.com/ashisssh/Pokemon---Explorer.git
+2.	git clone https://github.com/ashisssh/Pokemon---Explorer.git   //You can also download the zip file.
 3.	cd pokemon-explorer
-
+ 
 Install dependencies:  
-     
+   Open Command Prompt for Windows or Terminal for Mac. You can also use code editor but it may require permissions.
+  
 npm install
 or
 yarn install
 
+Setup  Environment Variables :
+1.	Create a .env.local file in the project root and add :
+2.	NEXT_PUBLIC_POKEAPI_URL=https://pokeapi.co/api/v2
+3.	Save the file
+
 Running the App
 
 To start the development server:
+
+Open command prompt or terminal and then run :
 
 npm run dev
 or
 yarn dev
 
 Then, open http://localhost:3000 in your browser.     
+
+It may take some time to load project initially but once loaded it will sun smoothly.
 
 Technologies Used
 
