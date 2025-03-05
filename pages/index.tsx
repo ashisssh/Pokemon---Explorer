@@ -71,7 +71,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="footer">
-        Made with ❤️ by You
+        Made with ❤️ for You
       </footer>
     </div>
   );
