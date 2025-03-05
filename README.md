@@ -1,53 +1,51 @@
-A Next.js application that allows users to explore Pokémon, view details, and search for specific Pokémon. This project uses PokéAPI to fetch Pokémon data dynamically.
+A Next.js application that allows users to explore Pokemon, view details, and search for specific Pokemon. This project uses PokeAPI to fetch Pokemon data dynamically.
 
 Features :
    
-   List of Pokemon (first 50)
-   Search for Pokemon by name
-   Detailed Pokemon Pages (Abilities, Types, stats, Moves)
-   Responsive design With Tailwind CSS
-   Static Generation for better performance
-
+1.	List of Pokemon (first 50)
+2.	Search for Pokemon by name
+3.	Detailed Pokemon Pages (Abilities, Types, stats, Moves)
+4.	Responsive design With Tailwind CSS
+5.	Static Generation for better performance
 
 Prerequisites
 
 Ensure the following installed
-    Node.js(v18.18.0 or later)
-    npm (or yarn)
-    Git (Optional, if cloning the repo)
+1.	Node.js(v18.18.0 or later)
+2.	npm (or yarn)
+3.	Git (Optional, if cloning the repo)
 
 Installation
 
-    Clone the repository (if applicable):
-    git clone https://github.com/ashisssh/Pokemon---Explorer.git
-    cd pokemon-explorer
+1.	Clone the repository (if applicable):
+2.	git clone https://github.com/ashisssh/Pokemon---Explorer.git
+3.	cd pokemon-explorer
 
 Install dependencies:  
      
-     npm install
-         or
-     yarn install  
-
+npm install
+or
+yarn install
 
 Running the App
 
 To start the development server:
 
-       npm run dev
-         or
-       yarn dev
+npm run dev
+or
+yarn dev
 
 Then, open http://localhost:3000 in your browser.     
 
-
 Technologies Used
 
-Next.js (React Framework)
+1.	Next.js (React Framework)
 
-TypeScript (Strong typing)
+2.	TypeScript (Strong typing)
 
-Tailwind CSS (Styling)
+3.	Tailwind CSS (Styling)
 
-Axios (HTTP requests)
+4.	Axios (HTTP requests)
 
-PokéAPI (Data source)
+5.	PokeAPI (Data source)
+
