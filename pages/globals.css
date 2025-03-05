@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables for Light & Dark Mode */
+:root {
+  --background-light: #f9fafb;
+  --foreground-light: #1f2937;
+  --background-dark: #1a1a2e;
+  --foreground-dark: #f3f4f6;
+  --primary: #3b82f6; /* Blue */
+  --secondary: #fbbf24; /* Yellow */
+  --accent: #ec4899; /* Pink */
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-light: var(--background-dark);
+    --foreground-light: var(--foreground-dark);
+  }
+}
+
+/* Apply global styles */
+body {
+  @apply bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  @apply font-sans antialiased transition-colors duration-300;
+}
+
+/* Responsive Typography */
+h1 {
+  @apply text-4xl font-extrabold md:text-5xl lg:text-6xl text-center mb-4;
+}
+
+h2 {
+  @apply text-3xl font-semibold md:text-4xl text-center mt-6;
+}
+
+h3 {
+  @apply text-2xl font-medium md:text-3xl;
+}
+
+p {
+  @apply text-base md:text-lg leading-relaxed;
+}
+
+/* Container Styling */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Buttons */
+.button {
+  @apply px-5 py-2 rounded-lg text-white font-semibold;
+  @apply bg-primary hover:bg-blue-600 transition-all shadow-md;
+}
+
+/* Pokemon Grid Layout */
+.grid-layout {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 mt-6;
+}
+
+/* Card Styling */
+.card {
+  @apply bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl;
+}
+
+/* Pokemon Image */
+.pokemon-image {
+  @apply w-32 h-32 mx-auto my-2 drop-shadow-lg;
+}
+
+/* Chip Style */
+.chip {
+  @apply inline-block px-3 py-1 rounded-full text-sm font-medium;
+  @apply bg-secondary text-gray-900 dark:bg-pink-500 dark:text-white;
+}
+
+/* Footer Styling */
+.footer {
+  @apply text-center text-sm py-4 mt-6 bg-gray-200 dark:bg-gray-800;
+}
+
